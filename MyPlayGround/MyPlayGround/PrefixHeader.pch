@@ -12,4 +12,6 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #import "UIView+Positioning.h"
+//获取屏幕 宽度、高度
+
 #endif /* PrefixHeader_pch */

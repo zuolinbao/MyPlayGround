@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A7C2E90F928891A7E78FADE327E50EDEE53A9A41",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F4BE648059610C3E7D2F81BA4DACE6335CDD1CD0" : 0,
+    "A7C2E90F928891A7E78FADE327E50EDEE53A9A41" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "88D96964-91B9-4017-AF0F-8E155B4D1E57",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F4BE648059610C3E7D2F81BA4DACE6335CDD1CD0" : "dev\/",
+    "A7C2E90F928891A7E78FADE327E50EDEE53A9A41" : "MyPlayGround\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyPlayGround",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyPlayGround\/MyPlayGround.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zuolinbao\/MyPlayGround.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A7C2E90F928891A7E78FADE327E50EDEE53A9A41"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/gerrit.tuniu.org:29418\/tuniuapp-iphone",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4BE648059610C3E7D2F81BA4DACE6335CDD1CD0"
+    }
+  ]
+}

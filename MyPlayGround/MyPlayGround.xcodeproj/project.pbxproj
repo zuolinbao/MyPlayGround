@@ -540,6 +540,7 @@
 				38FCD4631BCF84ED00E3CE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38FCD4641BCF84ED00E3CE0D /* Build configuration list for PBXNativeTarget "MyPlayGroundTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +549,7 @@
 				38FCD4661BCF84ED00E3CE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38FCD4671BCF84ED00E3CE0D /* Build configuration list for PBXNativeTarget "MyPlayGroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +558,7 @@
 				38FCD4691BCF84ED00E3CE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
