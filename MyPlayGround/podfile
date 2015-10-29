@@ -1,0 +1,5 @@
+platform :ios,'9.0'
+pod 'MJExtension','~> 2.5.15'
+pod 'Masonry','0.6.3'
+pod 'IQKeyboardManager'
+pod 'AFNetworking', '~> 3.0.0-beta.1'
