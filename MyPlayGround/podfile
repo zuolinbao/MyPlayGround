@@ -1,4 +1,5 @@
 platform :ios,'9.0'
+pod 'TTTAttributedLabel', '~> 1.13.4'
 pod 'YYWebImage'
 pod 'MJExtension','~> 2.5.15'
 pod 'Masonry','0.6.3'

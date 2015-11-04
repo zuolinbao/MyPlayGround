@@ -17,6 +17,7 @@ PODS:
   - IQKeyboardManager (3.3.4)
   - Masonry (0.6.3)
   - MJExtension (2.5.16)
+  - TTTAttributedLabel (1.13.4)
   - YYWebImage (0.9.0)
 
 DEPENDENCIES:
@@ -24,6 +25,7 @@ DEPENDENCIES:
   - IQKeyboardManager
   - Masonry (= 0.6.3)
   - MJExtension (~> 2.5.15)
+  - TTTAttributedLabel (~> 1.13.4)
   - YYWebImage
 
 SPEC CHECKSUMS:
@@ -31,6 +33,7 @@ SPEC CHECKSUMS:
   IQKeyboardManager: ac803e61e5b50efae6b3aeedd95a02c7c7d3b2b3
   Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
   MJExtension: b8c1321a77d91bcc007b94d38cbf5383c95ea30e
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
   YYWebImage: cf110e753398e97e2db110254e1cbc138735a5dc
 
 COCOAPODS: 0.39.0
