@@ -1,22 +1,30 @@
 //
-//  LBOneViewController.m
+//  FirstViewController.m
 //  MyPlayGround
 //
-//  Created by grey on 15/10/19.
+//  Created by grey on 15/11/12.
 //  Copyright © 2015年 grey. All rights reserved.
 //
 
-#import "LBOneViewController.h"
+#import "FirstViewController.h"
+#import "ConcurrentOperation.h"
 
-@interface LBOneViewController ()
+@interface FirstViewController ()
 
 @end
 
-@implementation LBOneViewController
+@implementation FirstViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    ConcurrentOperation *operation = [ConcurrentOperation new];
+    [queue addOperation:operation];
+   // [operation start];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
