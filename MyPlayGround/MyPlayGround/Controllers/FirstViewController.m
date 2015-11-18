@@ -17,11 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
-    ConcurrentOperation *operation = [ConcurrentOperation new];
-    [queue addOperation:operation];
-   // [operation start];
+//    
+//    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+//    ConcurrentOperation *operation = [ConcurrentOperation new];
+//    [queue addOperation:operation];
+//   // [operation start];
     
     
     

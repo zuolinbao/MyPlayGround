@@ -19,6 +19,9 @@
 		38FCD45D1BCF84ED00E3CE0D /* MyPlayGroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FCD45C1BCF84ED00E3CE0D /* MyPlayGroundUITests.m */; };
 		38FCD46E1BCF850A00E3CE0D /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FCD46D1BCF850A00E3CE0D /* UIView+Positioning.m */; };
 		38FCD4721BCF851500E3CE0D /* TNTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FCD4711BCF851500E3CE0D /* TNTitleButton.m */; };
+		3EADF4841BFCB16B00666432 /* AutoLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EADF4831BFCB16B00666432 /* AutoLayoutCell.m */; };
+		3EADF4871BFCB40A00666432 /* AutoLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EADF4861BFCB40A00666432 /* AutoLayoutTableViewController.m */; };
+		3EADF48B1BFCC2E200666432 /* AutoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EADF48A1BFCC2E200666432 /* AutoModel.m */; };
 		ECD4F5511B43DA8D7D8A0729 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA1716F739B8EA57873ADD5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +68,12 @@
 		38FCD4701BCF851500E3CE0D /* TNTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNTitleButton.h; sourceTree = "<group>"; };
 		38FCD4711BCF851500E3CE0D /* TNTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNTitleButton.m; sourceTree = "<group>"; };
 		38FCD4731BCF852200E3CE0D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3EADF4821BFCB16B00666432 /* AutoLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutCell.h; sourceTree = "<group>"; };
+		3EADF4831BFCB16B00666432 /* AutoLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutCell.m; sourceTree = "<group>"; };
+		3EADF4851BFCB40A00666432 /* AutoLayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTableViewController.h; sourceTree = "<group>"; };
+		3EADF4861BFCB40A00666432 /* AutoLayoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTableViewController.m; sourceTree = "<group>"; };
+		3EADF4891BFCC2E200666432 /* AutoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoModel.h; sourceTree = "<group>"; };
+		3EADF48A1BFCC2E200666432 /* AutoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoModel.m; sourceTree = "<group>"; };
 		DBA1716F739B8EA57873ADD5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F135AB10E9F6AB3A6D16EF1D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +109,8 @@
 			children = (
 				38F16B411BF4B88C00C0167E /* FirstViewController.h */,
 				38F16B421BF4B88C00C0167E /* FirstViewController.m */,
+				3EADF4851BFCB40A00666432 /* AutoLayoutTableViewController.h */,
+				3EADF4861BFCB40A00666432 /* AutoLayoutTableViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -138,6 +149,7 @@
 		38FCD4361BCF84ED00E3CE0D /* MyPlayGround */ = {
 			isa = PBXGroup;
 			children = (
+				3EADF4881BFCC2CC00666432 /* Model */,
 				38F16B441BF4B8CA00C0167E /* Others */,
 				381466341BD48C6900B6E889 /* Controllers */,
 				38FCD46F1BCF851500E3CE0D /* View */,
@@ -203,8 +215,19 @@
 			children = (
 				38FCD4701BCF851500E3CE0D /* TNTitleButton.h */,
 				38FCD4711BCF851500E3CE0D /* TNTitleButton.m */,
+				3EADF4821BFCB16B00666432 /* AutoLayoutCell.h */,
+				3EADF4831BFCB16B00666432 /* AutoLayoutCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3EADF4881BFCC2CC00666432 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3EADF4891BFCC2E200666432 /* AutoModel.h */,
+				3EADF48A1BFCC2E200666432 /* AutoModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		40DFECEC37F4CE1781CD60BD /* Pods */ = {
@@ -406,12 +429,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EADF4871BFCB40A00666432 /* AutoLayoutTableViewController.m in Sources */,
+				3EADF4841BFCB16B00666432 /* AutoLayoutCell.m in Sources */,
 				38FCD43C1BCF84ED00E3CE0D /* AppDelegate.m in Sources */,
 				38FCD46E1BCF850A00E3CE0D /* UIView+Positioning.m in Sources */,
 				38F16B471BF4B8F600C0167E /* ConcurrentOperation.m in Sources */,
 				38F16B431BF4B88C00C0167E /* FirstViewController.m in Sources */,
 				38FCD4391BCF84ED00E3CE0D /* main.m in Sources */,
 				38FCD4721BCF851500E3CE0D /* TNTitleButton.m in Sources */,
+				3EADF48B1BFCC2E200666432 /* AutoModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
